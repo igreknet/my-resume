@@ -1,12 +1,16 @@
+.bg-color {
+  background-color: #f8dede;
+}
+
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #f8dede;
 }
 
 .main-container {
-  display: flex;
+  /* display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
+  width: 1200px; */
   background-color: #fff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
@@ -15,7 +19,7 @@ body {
 /* Main content content*/
 
 .main-content-section {
-  padding: 100px 90px;
+  padding: 100px 120px;
 }
 
 .main-content-title {
@@ -52,7 +56,7 @@ body {
 }
 
 .about-me-description {
-  width: 400px;
+  /* width: 400px; */
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -157,14 +161,18 @@ body {
 
 .sidebar-section {
   background-color: #1e2939;
-  width: 370px;
+  /* width: 370px; */
   padding: 40px 0;
+}
+
+.avatar {
+  width: 100%;
 }
 
 .contacts-section,
 .tech-skills-section,
 .soft-skills-section {
-  margin: 50px 0 0 40px;
+  margin: 50px 0 0 10px;
 }
 
 .sidebar-title {
@@ -212,4 +220,35 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: white;
+}
+
+@media screen and (max-width: 575px) {
+  .main-content-section {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  aside {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  .sidebar-section {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .avatar {
+    display: none;
+  }
+  .phone,
+  .email {
+    display: flex;
+    flex-direction: column;
+  }
+  .contacts-section,
+  .tech-skills-section,
+  .soft-skills-section {
+    margin: 0;
+  }
 }

@@ -12,224 +12,250 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css\style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
   </head>
-  <body>
+  <body class="bg-color">
     <!--Main container-->
-    <div class="main-container">
-      <!--Main content section-->
-      <div class="main-content-section">
-        <!--About me section-->
-        <div class="about-me-section">
-          <h2 class="about-me-profession">Front-End Developer</h2>
+    <div class="main-container container">
+      <div class="row">
+        <!--Sidebar section-->
+        <aside class="sidebar-section col-sm-4 col-md-4 col-lg-3">
+          <img src="img/76703188.jpeg" alt="My photo" class="avatar" />
 
-          <h1 class="my-name">Ihor Nikitin</h1>
+          <!--Contacts section-->
+          <div class="contacts-section">
+            <h3 class="sidebar-title">Contacts</h3>
+            <div class="phone">
+              <span class="contacts-section-type">Phone:</span>
+              <a class="contacts-section-link" href="tel:+77777777777">+38 099 440 46 40</a>
+            </div>
+            <div class="email">
+              <span class="contacts-section-type">E-mail:</span>
+              <a class="contacts-section-link" href="mailto:mail@gmail.com">igreknet@gmail.com</a>
+            </div>
+          </div>
 
-          <p class="about-me-description">
-            <p>I’m currently learning React, Next.js and others libraries and frameworks</p>
-            <p>I want to improve my skills</p>
-            <p>I am interested in the latest technologies and design</p>
-          </p>
-        </div>
-        <!--My projects section-->
-        <div class="my-projects-section">
-          <h3 class="main-content-title">Projects</h3>
-          <ol class="my-projects-list">
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a
-                  target="_blank"
-                  href="https://igreknet.github.io/travel-list/"
-                  class="my-projects-link"
-                  >Travel List App</a
-                >
-                ........
-                <span
-                  ><span class="my-projects-bracket">[</span> useState and state management
-                  <span class="my-projects-bracket">]</span></span
-                >
-              </span>
-            </li>
+          <!--Tech skills section-->
+          <div class="tech-skills-section">
+            <h3 class="sidebar-title">Tech skills</h3>
+            <ul class="tech-skills-list">
+              <li class="tech-skills-item"><span class="tech-skills-item-text">GIT</span></li>
+              <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span></li>
+              <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
+              <li class="tech-skills-item"><span class="tech-skills-item-text">Bootstrap</span></li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-item-text">Tailwind CSS</span>
+              </li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-item-text">JavaScript</span>
+              </li>
+              <li class="tech-skills-item"><span class="tech-skills-item-text">React.js</span></li>
+              <li class="tech-skills-item">
+                <span class="tech-skills-item-text">Redux Toolkit</span>
+              </li>
+            </ul>
+          </div>
 
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a
-                  target="_blank"
-                  href="https://igreknet.github.io/eat-n-split-app/"
-                  class="my-projects-link"
-                  >Eat-n-Split App</a
-                >
-                ..........
-                <span
-                  ><span class="my-projects-bracket">[</span> useState and state management
-                  <span class="my-projects-bracket">]</span></span
-                >
-              </span>
-            </li>
+          <!--Soft skills section-->
+          <div class="soft-skills-section">
+            <h3 class="sidebar-title">Soft skills</h3>
+            <ul class="soft-skills-list">
+              <li class="soft-skills-item"><span class="tech-skills-item-text">Scrum</span></li>
+              <li class="soft-skills-item"><span class="tech-skills-item-text">Agile</span></li>
+              <li class="soft-skills-item"><span class="tech-skills-item-text">GTD</span></li>
+              <li class="soft-skills-item"><span class="tech-skills-item-text">Teamwork</span></li>
+            </ul>
+          </div>
+        </aside>
 
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a
-                  target="_blank"
-                  href="https://igreknet.github.io/use-popcorn-app/"
-                  class="my-projects-link"
-                  >usePopcorn App</a
-                >
-                ................
-                <span
-                  ><span class="my-projects-bracket">[</span> useEffect, data fetching, custom hooks
-                  <span class="my-projects-bracket">]</span></span
-                >
-              </span>
-            </li>
+        <!--Main content section-->
+        <div class="main-content-section col-sm-8 col-md-8 col-lg-9 px-5">
+          <!--About me section-->
+          <div class="about-me-section">
+            <h2 class="about-me-profession">Front-End Developer</h2>
 
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a
-                  target="_blank"
-                  href="https://igreknet.github.io/react-quiz-app/"
-                  class="my-projects-link"
-                  >React Quiz App</a
-                >
-                ................
-                <span
-                  ><span class="my-projects-bracket">[</span> useReducer, context API
-                  <span class="my-projects-bracket">]</span></span
-                >
-              </span>
-            </li>
+            <h1 class="my-name">Ihor Nikitin</h1>
 
-            <li class="my-projects-item">
-              <span class="my-projects-text">
-                <a
-                  target="_blank"
-                  href="https://igreknet.github.io/fast-react-pizza"
-                  class="my-projects-link"
-                  >Fast React Pizza</a
-                >
-                ................
-                <span
-                  ><span class="my-projects-bracket">[</span> React Router data loading, Redux,
-                  Redux Toolkit, thunks, Tailwind CSS
-                  <span class="my-projects-bracket">]</span></span
-                >
-              </span>
-            </li>
-          </ol>
-        </div>
-        <!--My work experience section-->
-        <div class="my-work-experience-section">
-          <h3 class="main-content-title">Work experience</h3>
+            <div class="about-me-description">
+              <p>I’m currently learning React, Next.js and others libraries and frameworks</p>
+              <p>I want to improve my skills</p>
+              <p>I am interested in the latest technologies and design</p>
+            </div>
+          </div>
+          <!--My projects section-->
+          <div class="my-projects-section">
+            <h3 class="main-content-title">Projects</h3>
+            <ol class="my-projects-list">
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    target="_blank"
+                    href="https://igreknet.github.io/travel-list/"
+                    class="my-projects-link"
+                    >Travel List App</a
+                  >
+                  ........
+                  <span
+                    ><span class="my-projects-bracket">[</span> useState and state management
+                    <span class="my-projects-bracket">]</span></span
+                  >
+                </span>
+              </li>
+
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    target="_blank"
+                    href="https://igreknet.github.io/eat-n-split-app/"
+                    class="my-projects-link"
+                    >Eat-n-Split App</a
+                  >
+                  ..........
+                  <span
+                    ><span class="my-projects-bracket">[</span> useState and state management
+                    <span class="my-projects-bracket">]</span></span
+                  >
+                </span>
+              </li>
+
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    target="_blank"
+                    href="https://igreknet.github.io/use-popcorn-app/"
+                    class="my-projects-link"
+                    >usePopcorn App</a
+                  >
+                  ................
+                  <span
+                    ><span class="my-projects-bracket">[</span> useEffect, data fetching, custom
+                    hooks <span class="my-projects-bracket">]</span></span
+                  >
+                </span>
+              </li>
+
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    target="_blank"
+                    href="https://igreknet.github.io/react-quiz-app/"
+                    class="my-projects-link"
+                    >React Quiz App</a
+                  >
+                  ................
+                  <span
+                    ><span class="my-projects-bracket">[</span> useReducer, context API
+                    <span class="my-projects-bracket">]</span></span
+                  >
+                </span>
+              </li>
+
+              <li class="my-projects-item">
+                <span class="my-projects-text">
+                  <a
+                    target="_blank"
+                    href="https://igreknet.github.io/fast-react-pizza"
+                    class="my-projects-link"
+                    >Fast React Pizza</a
+                  >
+                  ................
+                  <span
+                    ><span class="my-projects-bracket">[</span> React Router data loading, Redux,
+                    Redux Toolkit, thunks, Tailwind CSS
+                    <span class="my-projects-bracket">]</span></span
+                  >
+                </span>
+              </li>
+            </ol>
+          </div>
+
+          <!--My work experience section-->
+          <!-- <div class="my-work-experience-section">
+            <h3 class="main-content-title">Work experience</h3> -->
 
           <!-- Company 3 -->
-          <div class="my-work-experience-company-block">
-            <h4 class="my-work-experience-position">
-              Front-End Developer <span class="my-work-experience-company">Freelance</span>
-            </h4>
-            <p class="my-work-experince-period">
-              September 2019 - up to now <span class="my-work-experince-divider">|</span> Country
-            </p>
+          <!-- <div class="my-work-experience-company-block">
+              <h4 class="my-work-experience-position">
+                Front-End Developer <span class="my-work-experience-company">Freelance</span>
+              </h4>
+              <p class="my-work-experince-period">
+                September 2019 - up to now <span class="my-work-experince-divider">|</span> Country
+              </p>
 
-            <ul class="my-work-experince-duties">
-              <li class="my-work-experince-duty">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.
-              </li>
-              <li class="my-work-experince-duty">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </li>
-              <li class="my-work-experince-duty">Risus commodo viverra maecenas.</li>
-              <li class="my-work-experince-duty">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
-              </li>
-            </ul>
-          </div>
+              <ul class="my-work-experince-duties">
+                <li class="my-work-experince-duty">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                  incididunt ut labore et dolore magna aliqua.
+                </li>
+                <li class="my-work-experince-duty">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li class="my-work-experince-duty">Risus commodo viverra maecenas.</li>
+                <li class="my-work-experince-duty">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.
+                </li>
+              </ul>
+            </div> -->
 
           <!-- Company 2 -->
-          <div>
-            <h4 class="my-work-experience-position">
-              Manager <span class="my-work-experience-company">Roga & Kopyta New</span>
-            </h4>
-            <p class="my-work-experince-period">
-              March 2015 - October 2018 <span class="my-work-experince-divider">|</span> Country
-            </p>
+          <!-- <div>
+              <h4 class="my-work-experience-position">
+                Manager <span class="my-work-experience-company">Roga & Kopyta New</span>
+              </h4>
+              <p class="my-work-experince-period">
+                March 2015 - October 2018 <span class="my-work-experince-divider">|</span> Country
+              </p>
 
-            <ul class="my-work-experince-duties">
-              <li class="my-work-experince-duty">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et
-                dolore magna aliqua.
-              </li>
-              <li class="my-work-experince-duty">Quis ipsum suspendisse ultrices gravida.</li>
-              <li class="my-work-experince-duty">Risus commodo viverra maecenas.</li>
-            </ul>
-          </div>
+              <ul class="my-work-experince-duties">
+                <li class="my-work-experince-duty">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et
+                  dolore magna aliqua.
+                </li>
+                <li class="my-work-experince-duty">Quis ipsum suspendisse ultrices gravida.</li>
+                <li class="my-work-experince-duty">Risus commodo viverra maecenas.</li>
+              </ul>
+            </div> -->
 
           <!-- Company 1-->
-          <div>
-            <h4 class="my-work-experience-position">
-              Manager <span class="my-work-experience-company">Roga & Kopyta LLC</span>
-            </h4>
-            <p class="my-work-experince-period">
-              June 2014 - February 2015 <span class="my-work-experince-divider">|</span> Country
-            </p>
+          <!-- <div>
+              <h4 class="my-work-experience-position">
+                Manager <span class="my-work-experience-company">Roga & Kopyta LLC</span>
+              </h4>
+              <p class="my-work-experince-period">
+                June 2014 - February 2015 <span class="my-work-experince-divider">|</span> Country
+              </p>
 
-            <ul class="my-work-experince-duties">
-              <li class="my-work-experince-duty">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              </li>
-              <li class="my-work-experince-duty">Quis ipsum suspendisse ultrices gravida.</li>
-              <li class="my-work-experince-duty">Risus commodo viverra maecenas.</li>
-            </ul>
+              <ul class="my-work-experince-duties">
+                <li class="my-work-experince-duty">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                </li>
+                <li class="my-work-experince-duty">Quis ipsum suspendisse ultrices gravida.</li>
+                <li class="my-work-experince-duty">Risus commodo viverra maecenas.</li>
+              </ul>
+            </div>
+          </div> -->
+
+          <!--Education section-->
+          <div class="my-education-section">
+            <h3 class="main-content-title">Education</h3>
+            <h4 class="univercity">
+              National Technical University of Ukraine “Igor Sikorsky Kyiv Polytechnic Institute”
+            </h4>
+            <h5 class="management">Faculty of Instrumentation Engineering</h5>
+            <p class="my-study-period">September 2013 - June 2017</p>
           </div>
-        </div>
-        <!--Education section-->
-        <div class="my-education-section">
-          <h3 class="main-content-title">Education</h3>
-          <h4 class="univercity">National University of Radioelectronics</h4>
-          <h5 class="management">Management</h5>
-          <p class="my-study-period">September 2009 - June 2014 | Country</p>
         </div>
       </div>
-
-      <!--Sidebar section-->
-      <aside class="sidebar-section">
-        <img src="img/photo.jpg" alt="My photo" />
-
-        <!--Contacts section-->
-        <div class="contacts-section">
-          <h3 class="sidebar-title">Contacts</h3>
-          <div>
-            <span class="contacts-section-type">Phone:</span>
-            <a class="contacts-section-link" href="tel:+77777777777">+38 099 440 46 40</a>
-          </div>
-          <div>
-            <span class="contacts-section-type">E-mail:</span>
-            <a class="contacts-section-link" href="mailto:mail@gmail.com">igreknet@gmail.com</a>
-          </div>
-        </div>
-
-        <!--Tech skills section-->
-        <div class="tech-skills-section">
-          <h3 class="sidebar-title">Tech skills</h3>
-          <ul class="tech-skills-list">
-            <li class="tech-skills-item"><span class="tech-skills-item-text">GIT</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-item-text">HTML5</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-item-text">CSS3</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-item-text">JavaScript</span></li>
-            <li class="tech-skills-item"><span class="tech-skills-item-text">React.js</span></li>
-          </ul>
-        </div>
-
-        <!--Soft skills section-->
-        <div class="soft-skills-section">
-          <h3 class="sidebar-title">Soft skills</h3>
-          <ul class="soft-skills-list">
-            <li class="soft-skills-item"><span class="tech-skills-item-text">Scrum</span></li>
-            <li class="soft-skills-item"><span class="tech-skills-item-text">Agile</span></li>
-            <li class="soft-skills-item"><span class="tech-skills-item-text">GTD</span></li>
-            <li class="soft-skills-item"><span class="tech-skills-item-text">Teamwork</span></li>
-          </ul>
-        </div>
-      </aside>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
